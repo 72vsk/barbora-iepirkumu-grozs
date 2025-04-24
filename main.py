@@ -4,7 +4,7 @@ import csv
 grozs = []
 
 # Atver CSV failu, kurā ir produktu dati
-with open('lidl.csv', newline='', encoding='utf-8') as csv_file:
+with open('barbora.csv', newline='', encoding='utf-8') as csv_file:
     file_reader = csv.reader(csv_file, delimiter=',', quotechar='"')
 
     # Nolasīt katru rindu no CSV faila un pievienot to sarakstam
