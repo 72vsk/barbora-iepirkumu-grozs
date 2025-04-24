@@ -1,10 +1,10 @@
-# Lidl Iepirkumu Grozs
+# Barbora Iepirkumu Grozs
 
 Šī Python programma ir iepirkumu grozs, kas apstrādā produktu datus no CSV faila un piedāvā dažādas funkcijas, piemēram, produktu apskati, meklēšanu un aprēķinus.
 
 ## Projekta struktūra
 
-- **`lidl.csv`**: CSV fails, kas satur produktu datus, piemēram, nosaukumu, zīmolu, cenu un atlaidi.
+- **`barbora.csv`**: CSV fails, kas satur produktu datus, piemēram, nosaukumu, zīmolu, cenu un atlaidi.
 - **`main.py`**: Python skripts, kas nodrošina lietotāja saskarni un funkcionalitāti darbam ar produktu datiem.
 
 ## Vertēšanas kritēriji
@@ -21,8 +21,8 @@ Katrs punkts no saraksta zemāk ir 1 balle. Ja prasība realizēta daļeji - var
 Programma piedāvā šādas iespējas:
 1. Parādīt visus produktus.
 2. Parādīt konkrētu produktu pēc tā kārtas numura.
-3. Pievienot jaunu produktu sarakstam.
-4. Parādīt top 3 lētākos produktus.
-5. Parādīt top 3 produktus ar lielāko atlaidi.
-6. Meklēt produktus pēc zīmola.
+3. Meklēt produktus pēc zīmola.
+4. Parādīt top 3 dargākos produktus.
+5. Parādīt top 3 produktus ar mazāko atlaidi.
+6. Pievienot jaunu produktu sarakstam.
 7. Aprēķināt un parādīt gala summu ar atlaidēm.
