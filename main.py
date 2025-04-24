@@ -14,17 +14,17 @@ with open('lidl.csv', newline='', encoding='utf-8') as csv_file:
 grozs.pop(0)
 
 while True:
-    # Aicināt lietotāju ievadīt komandu
-    choice = input("Ievadi komandu: ")
-
     # Parādīt izvēlnes opcijas
     print("1. Visi produkti")
     print("2. Produkts pēc indeksa")
-    print("3. Pievienot jaunu produktu")
-    print("4. Top 3 letākie produkti")
-    print("5. Top 3 produkti ar lielāku atlaidi")
-    print("6. Meklēt pēc zīmola")
+    print("3. Meklēt pēc zīmola")
+    print("4. Top 3 dargākie produkti")
+    print("5. Top 3 produkti ar mazāku atlaidi")
+    print("6. Pievienot jaunu produktu")
     print("7. Gala summa ar atlaidi")
+    
+    # Aicināt lietotāju ievadīt komandu
+    choice = input("Ievadi komandu: ")
 
     # Opcija 1: Parādīt visus produktus
     if choice == "1":
@@ -38,27 +38,27 @@ while True:
         # paņem produktu no saraksta ar norādīto kārtas numuru izmantot saraksta indeksu
         pass
 
-    # Opcija 3: Pievienot jaunu produktu sarakstam
+    # Opcija 3: Meklēt produktus pēc zīmola
     elif choice == "3":
+        # pajautā lietotājam ievadīt zīmolu
+        # ar ciklu iziet cauri produktiem un pārbauda, vai zīmols atbilst meklējamajam izmantojot "in" operatoru
+        pass
+    
+    # Opcija 4: Parādīt top 3 dargākus produktus
+    elif choice == "4":
+        # izmanto kārtošanu un sarakta griešanu, lai iegūtu 3 dargākus produktus
+        pass
+    
+    # Opcija 5: Parādīt top 3 produktus ar mazāku atlaidi
+    elif choice == "5":
+        # izmanto kārtošanu un sarakta griešanu, lai produktus ar mazāku atlaidi
+        pass
+
+    # Opcija 6: Pievienot jaunu produktu sarakstam
+    elif choice == "6":
         # pajauta lietotājam ievadīt produkta datus
         # izveido jaunu produktu - sarakstu ar ievadītajiem datiem
         # pievieno to grozam
-        pass
-    
-    # Opcija 4: Parādīt top 3 lētākos produktus
-    elif choice == "4":
-        # izmanto kārtošanu un sarakta griešanu, lai iegūtu 3 lētākos produktus
-        pass
-    
-    # Opcija 5: Parādīt top 3 produktus ar lielāko atlaidi
-    elif choice == "5":
-        # izmanto kārtošanu un sarakta griešanu, lai produktus ar lielāko atlaidi
-        pass
-
-    # Opcija 6: Meklēt produktus pēc zīmola
-    elif choice == "6":
-        # pajautā lietotājam ievadīt zīmolu
-        # ar ciklu iziet cauri produktiem un pārbauda, vai zīmols atbilst meklējamajam izmantojot "in" operatoru
         pass
     
     # Opcija 7: Aprēķināt un parādīt katram produktam gala summu ar atlaidēm un kopējo atlaižu summu izmantojot cenu, cenu ar atlaidi un atlaidi procentos
